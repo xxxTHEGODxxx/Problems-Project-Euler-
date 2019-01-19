@@ -35,7 +35,7 @@ int main()
 bool palindrom(int first, int second) { // Проверка: является ли число палиндромом?
 	int multiplication = first * second;
 	int amount = 0;
-	for (int i = 1; i < multiplication; i = i * 10) { // amount = сколько знаков в числе
+	for (int i = 1; i < multiplication; i = i * 10) { // делает amount = из скольки чисел состоит число
 		amount++;
 	}
 	string firstCheck;
